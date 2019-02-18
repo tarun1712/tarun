@@ -3,95 +3,106 @@
 <head>
 <title>
 </title>
-<link rel="stylesheet" href="external/css/bootstrap.css">
+
 <link rel="stylesheet" href="css/style.css">
-<script>
+<link rel="stylesheet" href="external/css/bootstrap.css">
+<script src="external/js/bootstrap.js">
 </script>
 </head>
-<body background="images/bgp3.jpeg">
+<body style="background-color: rgb(16, 102, 214)">
 <!-- As a heading -->
-<div class="navbar navbar-light bg-light">
-   <a class="navbar-brand"href="#" >Home</a>
-     <a class="navbar-brand" href="#">News</a>
-     <a class="navbar-brand" href="#">Courses</a>
-     <a class="navbar-brand" href="#">projects</a>
-     <a class="navbar-brand" href="#">About</a>
-     <a class="navbar-brand" href="#">Contact</a>
-     <div class="topnav">
-     <form method="POST" name="frm1" action="#">
-     <input type="search" class="rounded" placeholder="Search here..." name="txt2">&nbsp;&nbsp;
-     <input type="button" name="txt2" value="Search" class="btn rounded"> 
+<div class="navbar">
+        <a href="index.html" class="rounded">Home</a>
+        <a href="#news" class="rounded">News</a>
+        <a href="#events" class="rounded">Events</a>
+        <a href="#services" class="rounded">Services</a>
+        <a href="about.html" class="rounded">About</a>
+        <form method="POST">
+        <input type="search" placeholder="Search.." class="rounded">
+        <input type="button" name="search" value="search" class="rounded">
     </form>
-     </div>
-    </div>
-    <div class="container rounded">
-        <div class="row">
-        <div class="col-xm-4 col-md-4 col-xs-4">
-        <div class="CustomDiv">
-            <h2 >Login</h2>
-            <form method="POST" action="#" name="frm2">
-                <h6>Username</h6>
-            <input type="text" class="form-control rounded" required placeholder="Username">
-            <br><br>
-            <h6>password</h6>
-            <input type="password" class="form-control rounded" required><br><br>
-            <center><button onclick="jfun2()" class="rounded">Login</button></center>
-            </form>
-
-        </div>   
-            </div>
-        <div class="col-sm-8 col-md-8 col-xs-8 col-lg-8">
-            <div class="CustomDiv rounded">
-    <h2>Signup</h2>
-    <form method="post" action="#" name="frm3">
-        <h6>Name</h6>
-    <input type="text" class="form-control rounded" placeholder="Enter your name " required><br><br>
-        <h6>Age in years</h6>
-    <input type="text" class="form-control rounded" placeholder="your age" required><br><br>
-        <h6>DOB</h6>
-    <input type="date" class="corner"><br><br>
-        <h6>Gender</h6>
-    <input type="radio" name="txt1"> male &nbsp &nbsp;
-    <input type="radio" name="txt1"> female  <br><br>
-        <h6>Designation</h6>
-    <input type="text" class="form-control rounded" placeholder="Ex.Analyst"><br><br>
-        <h6>Company</h6>
-    <input type="text" class="form-control rounded" placeholder="Ex. Cognizant"><br><br>
-        <h6>Location</h6>
-    <input type="text"  class="form-control rounded"><br><br>
-        <h6>Experience</h6>
-    <input type="text" class="form-control  rounded" placeholder="In years"><br><br>
-    <center>
-        <input type="submit" onsubmit="jfun1()" class="corner">
-    </center>
-    </form>
-    </div>
-    </div>
-    </div>
-    </div>
-    
+      </div>
       
-      <center>
-      <h3 style="color: aliceblue">Or login with</h3>
-    <div>
-    <a href="#">
-      <img src="images/iconfb.png" class="set-size" aria-label="facebook">
-    </a>
-    <a href="#">
-    <img src="images/iconinsta.png" class="set-size" aria-label="instagram">
-    </a>
-    <a href="#">
-            <img src="images/googleicon.png" class="set-size" aria-label="google">
-            </a>
-     <a href="#">
-    <img src="images/iconln.png" class="set-size" aria-label="linkedin">
-    </a>    
-      <a href="#">
-    <img src="images/icontweet.png" class="set-size" aria-label="tweeter">
-    </a>
-    </div>
-        </center>
-        
     
+    </div>
+    <div class="container-fluid rounded">
+        <div class="row">
+           <div class=" col-xm-9 col-md-9 col-xs-9 bgimg rounded">
+              <center><img src="images/cogn3.png" class="img-fit"></center> 
+            </div>
+                <div class="col-xm-3 col-md-3 col-xs-3">
+                        <div class="CustomDiv">
+                            <h2 >Login</h2>
+                            <form method="POST" action="#" name="frm2">
+                                <h6>Username</h6>
+                            <input type="text" class="form-control rounded" required placeholder="Username">
+                            
+                            <h6>Password</h6>
+                            <input type="password" class="form-control rounded" required>
+                            <center><button onclick="jfun2()" class="rounded" style="margin-top: 15px;">Login</button></center>
+                            </form>
+                        </div>  
+                </div>
+    </div> 
+    <div >
+      carousel
+      <img src="images/bg1.jpg">
+    </div>
+    <div class="row">
+      <div class="col-xm-6 col-md-6 col-xs-6">
+        <div class="CustomDiv1" id="news" >
+          <center><h3>NEWS</h3></center>
+          <p>
+              COGNIZANT (Nasdaq-100: CTSH) IS A WORLD-LEADING PROFESSIONAL SERVICES COMPANY,
+              TRANSFORMING BUSINESS, OPERATING AND IT MODELS FOR THE DIGITAL ERA.
+          </p>
+          <p>
+              Customer Experience Magazine, UK: Cognizant’s Head of Digital Business,
+              Europe, Outlines Ways to Improve the Customer Experience.
+          </p>
+          <p>
+              MAKERS 2019: Getting to Equal Footing - Cognizant Pledges to Employ
+              at least 100,000 Women Around the World by 2020.<br>
+              As part of its Women Empowered and Women in Digital Initiatives,
+              Cognizant is continuing its sponsorship of MAKERS, an organization 
+              dedicated to telling the stories of today's trailblazing women to 
+              inspire the changeMAKERS of tomorrow.
+          </p>
+          <p>
+              Consulting U.S.: Cognizant Opens New Accelerator Office in Boulder, Colorado
+              <br>
+              "Colorado is home to a number of our clients,” said Sean Middleton, Senior Vice President and President, Cognizant Accelerator. “And we expect to continue to grow and invest here as both our development needs and client needs increase.”
+          </p>
+        </div>
+      </div>
+      <div class="col-xm-6 col-md-6 col-xs-6">
+        <div class="CustomDiv1" id="events">
+            events sec
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-xm-3 col-md-3 col-xs-3">
+          <div class="CustomDiv1 ">
+            ser1
+          </div>
+      </div>
+      <div class="col-xm-3 col-md-3 col-xs-3">
+          <div class="CustomDiv1 ">
+             ser2
+          </div>
+      </div>
+      <div class="col-xm-3 col-md-3 col-xs-3">
+          <div class="CustomDiv1 ">
+            ser3
+          </div>
+      </div>
+      <div class="col-xm-3 col-md-3 col-xs-3">
+          <div class="CustomDiv1 ">
+          ser4
+        </div>
+      </div>
+    </div>
 </body>
 </html>
