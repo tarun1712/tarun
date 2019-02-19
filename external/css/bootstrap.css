@@ -605,7 +605,6 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-top:0px;
 }
 
 .col {
@@ -4165,10 +4164,8 @@ input[type="button"].btn-block {
 
 .navbar {
    
-  position: fixed;
+  position: sticky;
   top: 0;
-  background-color: rgb(88, 86, 86);
-  width: 100%;
   z-index: 9999;
   overflow: auto;
   display: -ms-flexbox;

@@ -1,4 +1,11 @@
-
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
   /* Links inside the navbar */
   .navbar a {
     float: left;
@@ -16,10 +23,8 @@
   }
 .CustomDiv
 {
-    color: white; 
+    color: white;
     border-radius: .50rem;
-    margin-right: -5px;
-    margin-left:-14px;
     width: auto;
     height: auto;
     padding:10px;
@@ -45,10 +50,6 @@
     opacity: .9;
     
 }
-.margin
-{
-  margin-top: 65px;
-}
 
 a
 {
@@ -63,17 +64,15 @@ a
 
 .bgimg
 {
-  background-image: url("../images/bgp4.jpg");
+    background-image: url("../images/bgp4.jpg");
     height: 270px;
     opacity: .95;
-    margin-top: -10px;
-    opacity:.95;
 }
 .topnav input[type=text] {
     float: right;
     padding: 6px;
     border: none;
-    margin-top: 75px;
+    margin-top: 95px;
     margin-right: 16px;
     font-size: 17px;
   }
@@ -99,25 +98,18 @@ a
     margin-top: 20px;
     width: auto;
     height: auto;
-    margin-right: -5px;
-    margin-left:-5px;
+    margin-right: 0px;
+    margin-left:0px;
     border-style: hidden;
-    overflow: hidden;
   }
   #news
   {
     background-image: url(../images/bgnews.png);
     color: white;
     font-weight: normal;
-    height: 450px;
-    overflow: scroll;
+    height: auto;
   }
   #events
   {
-    background-image: url(../images/event2.jpg);
-    color: rgb(255, 253, 253);
-    font-weight: normal;
-    height: 450px;
-    overflow: scroll;
+    background-image: url(../images/evnt.jpg);
   }
-  
