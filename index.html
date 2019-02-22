@@ -17,22 +17,96 @@
 </head>
 <body style="background-color:lightsteelblue;">
 <!-- As a heading -->
-<div class="navbar">
-        <a href="index.html" class="rounded">Home</a>
-        <a href="#nws" class="rounded">News</a>
-        <a href="#evnt" class="rounded">Events</a>
-        <a href="#services" class="rounded">Services</a>
-        <a href="about.html" class="rounded">About</a>
-        <a href="#" class="rounded" >signup</a>
-        <form method="POST">
-        <input type="search" placeholder="Search.." class="rounded">
+
+        <div class="navbar">
+            <a href="index.html" class="rounded">Home</a>
+            <a href="#nws" class="rounded">News</a>
+            <a href="#evnt" class="rounded">Events</a>
+            <a href="#services" class="rounded">Services</a>
+            <a href="about.html" class="rounded">About</a>
+            <div id="overlay" ondblclick="off()">
+              <div class="text">
+                <h2>Name</h2>
+                <input type="text" placeholder="enter your name here.." class="form-controls rounded">
+                <br><br>
+                <h2>Email</h2>
+                <input type="email" placeholder="xyz@gmail.com" class="form-controls rounded">
+                <br><br>
+                <h2>Company</h2>
+                <input type="text" placeholder="ex.Cognizant" class="form-controls rounded">
+                <br><br>
+                <h2>Contact No</h2>
+                <input type="text" placeholder="ex.912534675" class="form-controls rounded">
+                <br><br>
+                <h2>Employee Id</h2>
+                <input type="text" placeholder="ex.761417" class="form-controls rounded">
+                <br><br>
+                <center><input type="submit" class="rounded">
+                  <br><br>
+                  double click to return
+                </center>
+                
+              </div>
+            </div>
+              <a onclick="on()" class="rounded" onmouseover="this.style.color='black'" onmouseout="this.style.color='white'" style="color:white;">signup</a>
+            <input type="search" placeholder="Search.." class="rounded">
         <button style="background: inherit; border-style: hidden" ><i  class="fa fa-search" aria-hidden="true"></i></button>
         </form>
-</div>
+            
+          <div class="dropdown1">
+            <button class="dropbtn1 rounded">Worldwide
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content1">
+              <div class="header">
+                <h2>Countries</h2>
+              </div>   
+              <div class="row">
+                <div class="column">
+                  <h3 class="colpad">Asia Pacific</h3>
+                  <div class="row drop-content-margin">
+                    <img src="images/flagindia.png" class="set-size">India
+                  </div>
+                  <div class="row drop-content-margin">
+                    <img src="images/flagjapan.png" class="set-size">Japan
+                  </div>
+                  <div class="row drop-content-margin">
+                    <img src="images/flagsinga.png" class="set-size"> Singapore
+                  </div>
+                </div>
+                <div class="column">
+                  <h3 class="colpad">Americas</h3>
+                  <div class="row drop-content-margin">
+                    <img src="images/argn.jpg" class="set-size"> Argentina
+                  </div>
+                  <div class="row drop-content-margin">
+                    <img src="images/brazil.png" class="set-size">  Brazil
+                  </div>
+                  <div class="row drop-content-margin">
+                    <img src="images/canada.png" class="set-size"> Canada
+                  </div>
+                </div>
+                <div class="column">
+                    <h3 class="colpad">Europe</h3>
+                    <div class="row drop-content-margin">
+                      <img src="images/france.png" class="set-size"> France
+                    </div>
+                    <div class="row drop-content-margin">
+                      <img src="images/germany.png" class="set-size">  Germany
+                    </div>
+                    <div class="row drop-content-margin">
+                      <img src="images/italy.jpg" class="set-size">  Italy
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+
     <div class="container-fluid rounded margin">
         <div class="row">
            <div class=" col-xm-9 col-md-9 col-xs-9 bgimg rounded ">
-              <center><h1 style="font-size: 700%; color:rgb(40, 40, 255) ; margin-top: 50px;">Cognizant</h1></center> 
+              <center><h1 style="font-size: 700%; color:rgb(40, 40, 255) ; bottom: 50%;left: 50%;">Cognizant</h1></center> 
             </div>
             <div class="col-xm-3 col-md-3 col-xs-3">
                   <div class="CustomDiv">
