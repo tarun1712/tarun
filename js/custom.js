@@ -36,3 +36,10 @@ function on() {
   function off() {
     document.getElementById("overlay").style.display = "none";
   }
+
+function search()
+{
+    document.getElementById("srch").style.display = "block"
+    document.getElementById("main").style.display = "none"
+    
+}
